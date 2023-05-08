@@ -1,0 +1,52 @@
+.skills{
+    padding: 100px 0;
+    .container{
+      display: grid;
+      grid-template-columns:repeat(2, 50%);
+    }
+    &__content{
+      padding-right: 30px;
+    }
+    &__title{
+      text-align: left;
+    }
+    &__text{
+      margin-bottom: 19px;
+    }
+    &__line{
+      max-width: 445px;
+      height: 4px;
+      background-color: $color-line;
+      position: relative;
+      margin-bottom: 29px;
+      &::after{
+        content:"";
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        background-color: $color-active;
+      }
+    }
+    &__img{
+      img{
+        width: 100%;
+      }
+    }
+  }
+  
+  @media (max-width:720px){
+    .skills{
+      .container{
+        display: block;
+      }
+      &__content{
+        padding-right: 0;
+      }
+      &__title{
+        text-align: center;
+      }
+      &__line{
+        max-width: 100%;
+      }
+    }
+  }

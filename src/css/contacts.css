@@ -1,0 +1,28 @@
+.contacts__title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.contacts__form {
+  display: grid;
+  grid-template-columns: 255px 255px;
+  gap: 30px;
+  row-gap: 0;
+  justify-content: center;
+}
+.contacts__text {
+  width: 255px;
+  padding: 17px 20px 18px 20px;
+  margin-right: 26px;
+  margin-bottom: 20px;
+}
+.contacts__email {
+  width: 255px;
+  padding: 17px 20px 18px 20px;
+  margin-bottom: 20px;
+}
+.contacts__comment {
+  width: 540px;
+  height: 175px;
+  padding: 17px 20px 143px 20px;
+}/*# sourceMappingURL=contacts.css.map */

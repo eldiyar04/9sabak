@@ -1,0 +1,27 @@
+.work{
+    padding: 100px 0;
+    background-color: $color-bg-grey;
+    &__text{
+      margin-bottom: 57px;
+    }
+    &__video{
+      width: 100%;
+      height: 600px;
+    }
+  }
+  
+  @media (max-width:768px){
+    .work{
+      &__video{
+        height: 400px;
+      }
+    }
+  }
+  
+  @media (max-width:576px){
+    .work{
+      &__video{
+        height: 300px;
+      }
+    }
+  }

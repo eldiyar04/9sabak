@@ -1,0 +1,14 @@
+.microsoft .container {
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  justify-content: space-between;
+}
+.microsoft__icon {
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .microsoft .container {
+    grid-template-columns: repeat(2, 48%);
+  }
+}/*# sourceMappingURL=microsoft.css.map */

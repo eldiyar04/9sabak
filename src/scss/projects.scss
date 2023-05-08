@@ -1,0 +1,25 @@
+.projects{
+    background-color: $color-active;
+    padding: 100px 0;
+    &__items{
+      display: grid;
+      grid-template-columns: repeat(6,16.66%);
+    }
+    &__item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:#fff;
+      gap: 20px;
+    }
+    &__span{
+      display: block;
+      font-size:21px ;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    &__text{
+      font-size: 15px;
+    }
+  }
+  

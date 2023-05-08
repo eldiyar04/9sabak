@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+$color-black: #000;
+$color-active: #34547a;
+$color-bg-grey: #eeeff1;
+$color-text: #727272;
+$color-line: #c4c4c4;
+
+@mixin burger-line {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  content: "";
+  background-color: $color-black;
+}
+
+@import "reset";
+@import "global";
+@import "header";
+@import "home";
+@import "projects";
+@import "skills";
+@import "work";
+@import"portfolio";
+@import"microsoft";
+
+.about {
+  padding: 119px 0 100px;
+}
+
+.contacts{
+  &__title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  &__form {
+    display: grid;
+    grid-template-columns: 255px 255px;
+    gap: 30px;
+    row-gap: 0;
+    justify-content: center;
+  }
+  &__text{
+    width: 255px;
+    padding: 17px 20px 18px 20px;
+    margin-right: 26px;
+    margin-bottom: 20px;
+  }
+  &__email {
+    width: 255px;
+    padding: 17px 20px 18px 20px;
+    margin-bottom: 20px;
+  }
+  &__comment {
+    width: 540px;
+    height: 175px;
+    padding: 17px 20px 143px 20px;
+  }
+}
